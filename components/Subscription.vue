@@ -26,7 +26,7 @@
         >
         </v-checkbox>
         <p class="text_agreement">
-          Принимаю условия <a class="link_agreement">соглашения</a> и <a class="link_agreement">политики конфиденциалььности</a>
+          Принимаю условия <a href="#" class="link_agreement">соглашения</a> и <a href="#" class="link_agreement">политики конфиденциалььности</a>
         </p>
       </div>
     </div>
@@ -73,6 +73,7 @@ export default {
   border: 1px solid #E3E5EA;
   box-sizing: border-box;
   border-radius: 8px;
+  z-index: 1;
 }
 .item_input {
   width: 200px;
@@ -93,8 +94,10 @@ export default {
 }
 .agreement {
   margin-top: 12px;
+  position: relative;
   display: flex;
   align-items: center;
+  z-index: 2;
 }
 .text_agreement {
   margin-left: 6px;
