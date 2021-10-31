@@ -106,6 +106,9 @@ export default {
   letter-spacing: 0;
   text-align: left;
   color: #1E2228;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
 }
 .link_agreement {
   color: #79829A;
