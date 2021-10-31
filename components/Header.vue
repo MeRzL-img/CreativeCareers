@@ -8,6 +8,14 @@
             <h2 class="logo-alpha__text">alpha</h2>
           </div>
         </div>
+        <div class="container_input">
+          <v-text-field
+            label="Поиск по индустриям и профессиям"
+            solo
+            flat
+            class="input"
+          ></v-text-field>
+        </div>
       </div>
       <div class="header__container header__container--right">
         <a href="#" class="header__link">
@@ -46,6 +54,7 @@ export default {
 }
 .header__container {
   display: flex;
+  width: auto;
 }
 .header__container--right {
   justify-content: flex-end;
@@ -94,5 +103,30 @@ export default {
 .aboutus {
   margin-left: 79px;
   z-index: 2;
+}
+.container_input {
+  // max-width: 411px;
+  // width: 100%; извини что так, какого то хуя не работет, хз почему
+  width: 411px;
+  height: 100%;
+  max-height: 42px;
+  margin-left: 53px;
+  margin-top: 15px;
+}
+.input {
+  // какого то хуя я выставляю высоту, а она нихуя не работает
+  width: 100%;
+  height: 42px;
+  background: #FFF;
+  border: 1px solid #EDEDED;
+  box-sizing: border-box;
+  border-radius: 128px;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #7B7B7B;
 }
 </style>

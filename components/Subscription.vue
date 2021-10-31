@@ -8,7 +8,7 @@
         <v-input
           class="item_input"
         >
-          <v-text-field solo label="Введите e-mail"></v-text-field>
+          <v-text-field flat solo background-color="rgba(0, 0, 0, 0)" label="Введите e-mail"></v-text-field>
         </v-input>
         <v-btn
           elevation="2"
